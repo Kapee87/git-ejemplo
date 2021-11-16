@@ -3,6 +3,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 *{
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 
 }
 body {
@@ -12,14 +14,16 @@ body {
 }
 
 header {
-    margin: 0;
-    padding: 0;
-    background-color: aquamarine;
-    height: 65px;
-    padding-top: 5px;
-    position: fixed;
-    width: 100%;
+        position: fixed;
+        margin: auto;
+        padding: auto;
+        background-color: aquamarine;
+        /* height: 65px; */
+        padding-top: 0px;
+        /* width: 100%; */
+        z-index: 1000;
 }
+
 header *{
     display: inline;
 }
@@ -42,9 +46,10 @@ a {
 
 .sections{
     width: 1000px;
-    margin: 0 auto;    
+    margin: 100px auto 0 auto;
+  position: relative;
 }
-
+ */
 p {
      font-weight: 300;
 }
@@ -52,12 +57,11 @@ h2 {
     text-align: center;
     color:#f18918;
 }
-
-#special-section {
+/* #special-section {
     background-image: url(./assetes/Imagen3-245003649.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    z-index: 1000;
+    
     position: sticky;
-}
+} */
