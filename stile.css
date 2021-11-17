@@ -15,8 +15,8 @@ body {
 
 header {
         position: fixed;
-        margin: auto;
-        padding: auto;
+        margin: 0;
+        padding: 0;
         background-color: aquamarine;
         /* height: 65px; */
         padding-top: 0px;
