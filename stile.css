@@ -21,10 +21,6 @@ header {
         z-index: 1000;
 }
 
-header *{
-    display: inline;
-}
-
 li {
     margin: 10px;
 }
