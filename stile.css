@@ -10,7 +10,7 @@
 body {
     margin: 0;
     padding: 0;
-        font-family: 'Lato', sans-serif;
+    font-family: 'Lato', sans-serif;
 }
 
 header * {
@@ -49,13 +49,13 @@ a {
 }
 
 .sections {
-    width: 1000px;
-/*     margin: 100px auto 0 auto; */
-  position: relative;
+    width: 80%;
+    padding: 30px;
+    margin: 0px auto;
 }
 
 p {
-     font-weight: 300;
+    font-weight: 300;
 }
 
 h2 {
