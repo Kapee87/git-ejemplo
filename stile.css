@@ -13,8 +13,11 @@ body {
         font-family: 'Lato', sans-serif;
 }
 
-header {
+header * {
     display: inline;
+}
+
+header {
     position: fixed;
     background-color: aquamarine;
     height: 65px;
@@ -38,6 +41,11 @@ a {
     font-size: 40px;
     font-style: italic;
     font-family: 'Comforter Brush', cursive;
+}
+
+#main {
+    position: absolute;
+    top: 65px;
 }
 
 .sections {
