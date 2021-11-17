@@ -5,8 +5,8 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-
 }
+
 body {
     margin: 0;
     padding: 0;
@@ -14,22 +14,25 @@ body {
 }
 
 header {
-        position: fixed;
-        background-color: aquamarine;
-        height: 65px;
-        width: 100%;
-        z-index: 1000;
+    display: inline;
+    position: fixed;
+    background-color: aquamarine;
+    height: 65px;
+    width: 100%;
+    z-index: 1000;
 }
 
 li {
     margin: 10px;
 }
+
 a {
     text-decoration: none;
     color:black;
     font-size: 20px;
     font-family: 'Lato', sans-serif;
 }
+
 .logo {
     margin: 20px;
     font-size: 40px;
@@ -37,19 +40,21 @@ a {
     font-family: 'Comforter Brush', cursive;
 }
 
-.sections{
+.sections {
     width: 1000px;
 /*     margin: 100px auto 0 auto; */
   position: relative;
 }
- */
+
 p {
      font-weight: 300;
 }
+
 h2 {
     text-align: center;
     color:#f18918;
 }
+
 /* #special-section {
     background-image: url(./assetes/Imagen3-245003649.jpg);
     background-repeat: no-repeat;
